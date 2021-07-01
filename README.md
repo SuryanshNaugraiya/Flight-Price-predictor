@@ -4,7 +4,8 @@
 ![Frontend](https://img.shields.io/badge/Frontend-HTML/CSS/JS-yellow)
 
 #### A glimpse of the web app:
- ![GIF](readme_resources/j.gif)
+ [![](https://i.imgur.com/R1g2wvC.png)](https://flight-price-prediction-api.herokuapp.com/)
+ [![](https://i.imgur.com/p0aeL6c.png)](https://flight-price-prediction-api.herokuapp.com/)
 
 ## Table of Content
   * [Demo](#demo)
@@ -17,13 +18,11 @@
   * [Future scope of project](#future-scope)
 
 ## Demo
-Link: [https://ipl-prediciton-1.herokuapp.com/](https://ipl-prediciton-1.herokuapp.com/)
+Link: [https://flights-price-predictor.herokuapp.com/](https://flights-price-predictor.herokuapp.com/)
 
 ## Overview
-This is a Flask web app and it has 2 functionalities.
-1) **Predicts the innings Score**
-2) **Predicts the winner of the match**
-
+This is a Flask web app and it has 1 functionality.
+1) **Predicts the price of flights**
 
 ## Motivation
 What to do when you are at home due to this pandemic situation? I started to learn Machine Learning model to get most out of it. I came to know mathematics behind all supervised models. Finally it is important to work on application (real world application) to actually make a difference.
@@ -44,32 +43,17 @@ Our next step would be to follow the instruction given on [Heroku Documentation]
 ## Directory Tree 
 ```
 ├── static 
-    ├── a.png
-    ├──csk.png
-    ├──dc.png
-    ├──rcb.png
-    ├──kkr.png
-    ├──rr.png
-    ├──mi.png
-    ├──srh.png
-    ├──kxip.png
-    ├──background.png
-    ├──ipl-favicon.ico
+    ├── airplane-vector image.png
+    ├──style.css
 ├── template
-    ├── index.html
-    ├── predict_score.html
-    ├── score.html
-    ├── predict_winner.html
-    ├── winner.html
+    ├── home.html
 ├── readme_resources
     ├── ipl-first-innings-score-web-app.gif
     ├── application-error-heroku.png
 ├── README.md
 ├── app.py
-├── score.pkl
-├── score.ipynb
-├── winner.pkl
-├── winner.ipynb
+├── model.pkl
+├── Flight-fare-prediction.ipynb
 ├── requirements.txt
 ├── Procfile
 ```
