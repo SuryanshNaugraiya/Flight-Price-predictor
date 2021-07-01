@@ -45,7 +45,6 @@ pyttsx3==2.90
 PyTweening==1.0.3
 pytz==2021.1
 pywhatkit==4.2
-pywin32==300
 requests==2.25.1
 requests-html==0.10.0
 secure-smtplib==0.1.1
